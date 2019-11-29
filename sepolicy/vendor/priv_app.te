@@ -6,6 +6,8 @@ allow priv_app adsprpcd_file:filesystem getattr;
 allow priv_app { proc_stat }:file r_file_perms;
 allow priv_app firmware_file:filesystem getattr;
 allow priv_app proc_modules:file read;
+allow priv_app device:chr_file { ioctl };
+allow priv_app device:chr_file { read write };
 
 get_prop(priv_app, camera_prop)
 get_prop(priv_app, boottime_prop)
