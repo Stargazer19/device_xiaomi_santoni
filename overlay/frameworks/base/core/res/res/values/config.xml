@@ -489,5 +489,8 @@
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
     <integer name="config_sysCPUTempMultiplier">1</integer>
     <integer name="config_sysBatteryTempMultiplier">10</integer>
+	
+    <!-- Smart Chagring -->
+    <bool name="config_smartChargingAvailable">true</bool>
 
 </resources>
