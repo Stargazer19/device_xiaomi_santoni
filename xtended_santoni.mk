@@ -29,6 +29,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Xtension
 XTENDED_BUILD_TYPE := OFFICIAL
 
+#Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xtended.maintainer=STARGAZER
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 	
