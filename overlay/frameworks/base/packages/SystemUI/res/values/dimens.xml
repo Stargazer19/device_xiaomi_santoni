@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2017 , The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+
+    <!-- Height of the battery icon in the status bar. -->
+    <dimen name="status_bar_battery_icon_height">12.5dp</dimen>
+
+    <!-- Width of the battery icon in the status bar. The battery drawable assumes a 12x20 canvas,
+    so the width of the icon should be 13.0dp * (12.0 / 20.0) -->
+    <dimen name="status_bar_battery_icon_width">7.5dp</dimen>
+
+    <!-- Padding before battery level text in status bar, QS, and Keyguard -->
+    <dimen name="battery_level_padding_start">6dp</dimen>
+
+    <!-- The text size for battery level -->
+    <dimen name="battery_level_text_size">12sp</dimen>
+
+    <!-- Padding between signal cluster and battery icon -->
+    <dimen name="signal_cluster_battery_padding">6dp</dimen>
+	
+</resources>
